@@ -1,9 +1,9 @@
 import { Component } from "react";
 import NavBar from "./components/Navbar";
-import Inicio from "./pages/Inicio";
-import Productos from "./pages/Productos";
-import Nosotros from "./pages/Nosotros";
-import Carrito from "./pages/Carrito";
+import Inicio from "./components/Inicio";
+import Productos from "./components/Productos";
+import Nosotros from "./components/Nosotros";
+import Carrito from "./components/Carrito";
 
 
 function App() {
@@ -27,7 +27,8 @@ function App() {
     <>
      
       <NavBar />
-      {component}
+      <div className="container">{component}</div>
+      
     </>
   
 

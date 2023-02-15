@@ -45,3 +45,15 @@ body {
 .nav li:hover {
   background-color: #777;
 }
+
+
+.menu-button {
+  justify-self: center;
+  cursor: pointer;
+}
+
+.menu-button span {
+  margin-left: 10px;
+  color: white;
+  font-size: 18px;
+}

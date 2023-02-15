@@ -1,9 +1,12 @@
 import React from "react";
-import "./navbar.css";
-
+import "./styles/navbar.css";
+import CartWidget from './CartWidget';
 
 const NavBar = (props) => {
   return (
+
+    <header>
+ 
     <nav className="nav">
       <a href="/" className="site-title">
         MercadoVago
@@ -16,11 +19,19 @@ const NavBar = (props) => {
           <a href="/nosotros"> Nosotros </a>
         </li>
         <li>
-            
-          <a href="/carrito"> Carrito de compras </a>
+        
+          <a href="/carrito"> <CartWidget /> </a>
+          
         </li>
       </ul>
+
+
     </nav>
+
+    
+
+    </header>
+
   );
 };
 
