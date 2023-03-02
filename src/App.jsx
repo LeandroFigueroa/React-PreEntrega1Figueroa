@@ -1,37 +1,26 @@
-import { Component } from "react";
-import NavBar from "./components/Navbar";
-import Inicio from "./components/Inicio";
-import Productos from "./components/Productos";
-import Nosotros from "./components/Nosotros";
-import Carrito from "./components/Carrito";
-
+import NavBar from "./components/NavBar/Navbar";
+import Productos from "./components/Productos/Productos";
+import Nosotros from "./components/Nosotros/Nosotros";
+import Carrito from "./components/Carrito/Carrito";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-  let component;
-  switch (window.location.pathname) {
-    case "/":
-      component = <Inicio />;
-      break;
-    case "/nosotros":
-      component = <Nosotros />;
-      break;
-    case "/productos":
-      component = <Productos />;
-      break;
-    case "/carrito":
-      component = <Carrito />;
-      
-      break;
-  }
   return (
     <>
-     
       <NavBar />
-      <div className="container">{component}</div>
-      
-    </>
-  
 
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/nosotros" element={<Nosotros />} />
+          <Route path="/categoria/:categoriaId" element={<ItemListContainer />} />
+          <Route path="/detalle/:detalleId" element={<ItemDetailContainer />} />
+          <Route path="/carrito" element={<Carrito />} />
+        </Routes>
+      </div>
+    </>
   );
 }
 

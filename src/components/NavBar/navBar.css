@@ -1,17 +1,11 @@
-* {
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0;
-}
 
 .site-title {
   font-size: 2rem;
 }
 
 .nav {
-  background-color: #333;
+
   color: white;
   display: flex;
   justify-content: space-between;
@@ -26,6 +20,7 @@ body {
   list-style: none;
   display: flex;
   gap: 1rem;
+  
 }
 
 .nav a {
@@ -57,3 +52,4 @@ body {
   color: white;
   font-size: 18px;
 }
+
