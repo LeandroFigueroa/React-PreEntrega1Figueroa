@@ -1,7 +1,22 @@
+
+.productos{
+    
+    color: wihte;
+    padding: 5rem 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 3rem 2rem;
+    box-sizing:border-box ;
+    float: left;
+}
+
 .prodVenta{
-    display: block;
+    
     width: 300px;
     color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
 
 }
 
@@ -17,5 +32,34 @@
     border-radius: 1rem;
     text-decoration: none;
     
+
+}
+
+.titleProd{
+    font-size: 2rem;
+    padding: 0 0 0.5rem 1rem;
+    color: whitesmoke;
+
+}
+
+.buttom button{
+
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff10;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.buttom .btn{
+    background-color: skyblue;
+    max-width: 350px;
+    width: 100%;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    ;
 
 }

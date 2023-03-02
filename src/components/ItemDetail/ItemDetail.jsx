@@ -1,5 +1,5 @@
 import React from "react";
-import "../ItemDetail/itemDetail.css"
+import "./itemDetail.css";
 
 export const ItemDetail = ({ data }) => {
   return (
@@ -8,8 +8,12 @@ export const ItemDetail = ({ data }) => {
         <img className="detail__image" src={data.image} alt="" />
         <div className="content">
           <h1>{data.title}</h1>
-          
+          <h2>{data.marca}</h2>
+          <h2>{data.price}</h2>
         </div>
+        
+        
+
       </div>
     </div>
   );

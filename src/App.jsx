@@ -1,5 +1,4 @@
 import NavBar from "./components/NavBar/Navbar";
-import Productos from "./components/Productos/Productos";
 import Nosotros from "./components/Nosotros/Nosotros";
 import Carrito from "./components/Carrito/Carrito";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
