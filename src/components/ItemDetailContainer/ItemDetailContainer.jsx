@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
-
+import Title from "../Title/Title";
 const prodVenta = [
   {
     id: 1,
@@ -11,6 +11,7 @@ const prodVenta = [
     category: "notebooks",
     price: 300000,
     marca:'Apple',
+    espec:"Notebook alta gama de la manzanita 16gb de ram",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const prodVenta = [
     category: "notebooks",
     price: 300000,
     marca:'Asus',
+    espec:"Notebook alta gama gamer 16gb de ram",
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const prodVenta = [
     category: "smartphones",
     price: 300000,
     marca:'Samsung',
+    espec:"Smartphone alta gama, lo mejor en Android",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const prodVenta = [
     category: "smartphones",
     price: 300000,
     marca:'Apple',
+    espec:"Smartphone alta gama de la manzanita, lo mejor de lo mejor",
   },
   {
     id: 5,
@@ -47,6 +51,7 @@ const prodVenta = [
     category: "smartphones",
     price: 300000,
     marca:'Apple',
+    espec:"Smartphone alta gama de la manzanita, lo mejor de lo mejor",
   },
   {
     id: 6,
@@ -56,6 +61,7 @@ const prodVenta = [
     category: "smartphones",
     price: 300000,
     marca:'Apple',
+    espec:"Smartphone alta gama de la manzanita, lo mejor de lo mejor",
   },
 ];
 
@@ -75,7 +81,26 @@ export const ItemDetailContainer = () => {
     );
   }, []);
 
-  return <ItemDetail data={data} />;
+  return (
+    <>
+      <div>
+        <h6>
+          <Title greeting="Hola Usuario" />
+        </h6>
+        <div className="prodVenta">
+        <ItemDetail data={data} />
+      
+        </div>
+
+        <div>
+        
+        </div>
+      </div>
+    </>
+  );
+
+
+ 
 };
 
 export default ItemDetailContainer;

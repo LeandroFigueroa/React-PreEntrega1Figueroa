@@ -10,6 +10,7 @@ export const ItemDetail = ({ data }) => {
           <h1>{data.title}</h1>
           <h2>{data.marca}</h2>
           <h2>{data.price}</h2>
+          <h4>{data.espec}</h4>
         </div>
         
         
