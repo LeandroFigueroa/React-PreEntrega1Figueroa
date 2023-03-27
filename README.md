@@ -1,10 +1,30 @@
-# `Proyecto final Coder House React.`
+# Proyecto final Coder House React.
 
 Este proyecto se puede ver montado en [Netlify]
 (https://react-2dapreentrega-leandrofigueroa.netlify.app/)
 
-## ``
+## npm usados:
+1. React-router-dom
+2. Firebase
+3. React-dom
+4. React-icons
+5. React-scritps 
 
+## Estructura
+1. Se creo una caperta 'Components'donde se alojaran todos nuestros componentes de la web
+2. Se creo una carpeta 'Firebase'por fuera de 'Components' para levantar la base de datos de Firebase.
+3. Se creo una carpeta 'Context' por fuera de 'Components' para crear las opciones del carrito, como agregar,eliminar,precio total,etc.
+4. En la carpeta 'Public' se creo una carpeta 'img' donde se alojaron las imagenes para los productos.
+5. En el index.html de Public, se cargo bootstrap.
+6. En Índex.js'se creo el BrowserRouter y se cargo 'Firestore'
+7. En App.jsx se creo el 'Routes'y los links de todos los componentes que funcionan como pages a traves de 'Routes'
+8. Se creo la carpeta 'Title'para el greetings que dice 'Hola'
+9. Se creo un NavBar que se vincula con un cartWidget el cual es dinamico a la carga de productos.
+10. Se crearon las respectivas carpetas para que los procesos de los productos cumplan su flow en el proceso de compra.
+11. Se creo un Form para que se manden los datos a firestore creando una Order con los datos de usuario el cual saca un mensaje diciendo que se completo la compra y devolviendo un ID que lo hice pasar como Orden de compra.
+
+## Que me hubiera faltado mejorar?
+Cuando lleno el formulario y lo envio no pude hacer sacar el formulario.
 
 
 # Getting Started with Create React App

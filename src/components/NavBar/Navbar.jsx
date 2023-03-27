@@ -16,9 +16,6 @@ export default function Navbar() {
           <CustomLink to="/categoria/smartphones"> Smartphones</CustomLink>
         </h3>
         <h3>
-          <CustomLink to="/nosotros"> About</CustomLink>
-        </h3>
-        <h3>
           {" "}
           <CustomLink to="/cart">
             {" "}
