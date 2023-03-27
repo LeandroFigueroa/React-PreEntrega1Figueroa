@@ -1,7 +1,7 @@
 
 .productos{
     
-    color: wihte;
+    color: white;
     padding: 5rem 0;
     margin: 0 auto;
     display: grid;
@@ -20,9 +20,7 @@
 
 }
 
-.prodVenta :hover{
-    color: aqua;
-}
+
 
 .prodVenta img{
     width: 100%;

@@ -1,0 +1,70 @@
+
+
+.cartPrincipal{
+    align-items: center;
+    justify-content: center;
+    padding-left:40%;
+}
+.pTitle {
+    font-size: xx-large;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+  }
+
+.linkCompras {
+  background-color: skyblue;
+  max-width: 350px;
+  width: 100%;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 0.5em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.1s;
+  margin-top: 0.5rem;
+  
+}
+
+
+.totalPrice{
+    font-size: xx-large;
+    background-color: rgb(62, 129, 155);
+    max-width: 500px;
+    width: 100%;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5em;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    
+}
+
+.pagarProd{
+    font-size: xx-large;
+    background-color: skyblue;
+    max-width: 500px;
+    width: 100%;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5em;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    
+}
+
+.pagarProd:hover{
+    background-color:deeppink;
+
+
+}

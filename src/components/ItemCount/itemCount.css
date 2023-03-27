@@ -1,0 +1,44 @@
+.counter{
+    background-color: skyblue;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.2rem;
+    border-radius: 0.5em;
+    font-weight: bold;
+    
+
+}
+
+.buttonAdd{
+    color:aliceblue;
+    padding: 0.5rem;
+    background-color:inherit ;
+    border: inherit;
+    font-size: medium;
+    font-weight: bold;
+    
+    
+}
+.buttonAdd:hover{
+    color: #333;
+    text-shadow: 100px;
+ }
+
+
+ .buttonSymbol{
+    color:aliceblue;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color:inherit ;
+    border: inherit;
+    font-size: large;
+    font-weight: bold;
+    
+    
+}
+.buttonSymbol:hover{
+    color: #333;
+    text-shadow: 100px;
+ }

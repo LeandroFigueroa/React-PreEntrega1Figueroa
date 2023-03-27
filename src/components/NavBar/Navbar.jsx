@@ -16,14 +16,14 @@ export default function Navbar() {
           <CustomLink to="/categoria/smartphones"> Smartphones</CustomLink>
         </h3>
         <h3>
-          <CustomLink to="/nosotros"> Nosotros</CustomLink>
+          <CustomLink to="/nosotros"> About</CustomLink>
         </h3>
         <h3>
           {" "}
-          <CustomLink to="/carrito">
+          <CustomLink to="/cart">
             {" "}
             <CartWidget />{" "}
-            <span className="item__total">0</span>
+            <span className="item__total"></span>
           </CustomLink>
         </h3>
       </ul>

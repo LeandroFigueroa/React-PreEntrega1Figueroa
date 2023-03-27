@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import Title from "../Title/Title";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
@@ -10,7 +11,9 @@ import {
   where,
 } from "firebase/firestore";
 
-export const ItemListContainer = ({ texto }) => {
+export const ItemListContainer = ({texto}) => {
+
+
   const [data, setData] = useState([]);
   const { categoriaId } = useParams();
 
@@ -21,7 +24,7 @@ export const ItemListContainer = ({ texto }) => {
     if (categoriaId) {
       const queryFilter = query(
         queryCollection,
-        where("categoryId", "==", "categoriaId")
+        where("categoryId", "==", categoriaId)
       );
       getDocs(queryFilter).then((res) =>
         setData(res.docs.map((items) => ({ id: items.id, ...items.data() })))
@@ -36,14 +39,17 @@ export const ItemListContainer = ({ texto }) => {
   return (
     <>
       <div>
+     
         <h6>
-          <Title greeting="Hola Usuario" />
+          <Title greeting= 'Hola' />
         </h6>
         <div>
           <ItemList data={data} />
+          
         </div>
+        
 
-        <div></div>
+        <div>  </div>
       </div>
     </>
   );

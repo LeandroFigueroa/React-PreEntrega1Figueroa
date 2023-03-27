@@ -1,0 +1,64 @@
+.divUnde{
+    color: white;
+    width:300px;
+	padding:5px;
+	border-radius: 8px;
+	font-weight:bold;
+
+}
+
+.div_hide{
+  opacity: 0;
+}
+.back2home{
+
+    color: white;
+    width:300px;
+	padding:5px;
+	border-radius: 8px;
+    width:72px;
+	font-weight:bold;
+
+    background-color: skyblue;
+}
+.back2home:hover{
+    background-color: deeppink;
+    cursor: pointer;
+  }
+
+.titleForm{
+    font-size: xlarge;
+    text-align: left;
+    padding-top: 5rem;
+    padding-left: 1rem;
+}
+
+
+.formCompra {
+   
+    
+    width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    width:72px;
+	font-weight:bold;
+	display:inline-block;
+  }
+
+  .btnComprar{
+    color: white;
+    width:300px;
+	padding:16px;
+	border-radius: 8px;
+	margin:auto;
+    width:72px;
+	font-weight:bold;
+	display:inline-block;
+    background-color: skyblue;
+  }
+
+  .btnComprar:hover{
+    background-color: deeppink;
+    cursor: pointer;
+  }
